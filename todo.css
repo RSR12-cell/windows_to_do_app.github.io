@@ -1,0 +1,120 @@
+body{
+  background-image: url("Body Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Container{
+  background: transparent;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+
+}
+
+
+button{
+ border-radius: 15px;
+ box-shadow: inset;
+  width: 250px;
+  height: 75px;
+  position: relative;
+
+  
+}
+
+button:hover{
+  background-color: white;
+
+}
+
+b{
+  color: rgb(196, 60, 60);
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img{
+  border-style: solid;
+  padding: 0px;
+  margin: 5px;
+  display: display;
+  border-color: aqua;
+  box-shadow: 7px 0px 20px red;
+}
+
+button:active{
+  background-color: whitesmoke;
+  
+}
+
+#image_text{
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ background: linear-gradient(to bottom, rgb(180, 171, 171), black);
+ width: fit-content;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 15px;
+ padding: 5px;
+ border-radius: 10px;
+ box-shadow: 0px 0 15px orange;
+}
+
+text{
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  width: fit-content;
+}
+
+ol{
+  list-style-position: inside;
+  text-align: left;
+  margin-left: 50px;
+}
+
+#download{
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  border-color: grey;
+  width: fit-content;
+  font-size: 30px;
+  text-decoration: none;
+  color: crimson;
+  padding: 15px 20px;
+  display: block;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#download:hover{
+  background-color: lightblue;
+  transition: color 1.0s ease;
+}
+
+#download:active{
+  background-color: gold;
+}
+.fa-download{
+  color: black;
+}
+
+#donations{
+  background-color: black;
+  color: blanchedalmond;
+  width: fit-content;
+  font-size: 18px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fa-circle-dollar-to-slot{
+  font-size: 25px;
+}
